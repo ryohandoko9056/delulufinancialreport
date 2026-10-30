@@ -1,11 +1,11 @@
 @echo off
 set "PATH=%LOCALAPPDATA%\Programs\MinGit\cmd;%PATH%"
 echo ========================================================
-echo  Pushing Delulu Budget Tracker to GitHub
+echo  Pushing Delulu Budget Tracker to GitHub (Force Overwrite)
 echo  Repository: https://github.com/ryohandoko9056/delulufinancialreport.git
 echo ========================================================
 echo.
-git push -u origin main
+git push -u origin main --force
 echo.
 echo ========================================================
 echo  Done!
